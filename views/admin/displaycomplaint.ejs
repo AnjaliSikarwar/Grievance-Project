@@ -1,0 +1,87 @@
+<%- include('./layouts/header.ejs') %>
+  <%- include('./layouts/sidebar.ejs') %>
+
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
+
+      <!-- Main content -->
+      <div class="content">
+        <h1>Display Complaint</h1>
+
+        <!-- /.card -->
+        <div class="card">
+          <div class="card-header">
+            <h3 class="card-title"></h3>
+           
+          <!-- /.card-header -->
+          <div class="card-body">
+              
+            <table id="example1" class="table table-bordered table-striped">
+              <thead>
+                <tr>
+                  <th>S.No</th>
+                  <th>Name</th>
+                  <th>Complaint Type</th>
+                  <th>Subject</th>
+                  <th>Complaint Detail</th>
+                  <th>Status</th>
+                  <th>Comment</th>
+                  <th></th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody>
+                <% i=1 %>
+                <% c.forEach((item)=>{ %>
+                  <tr>
+                    <td><%= i++ %></td>  
+                    <td><%= item.name %></td>
+                    <td><%= item.ctype %></td>
+                    <td><%= item.subject %></td>
+                    <td><%= item.cdetail %></td>
+                    <td><%= item.status %></td>
+                    <td>
+                      <form action="updatestatus/<%= item._id %>" method="post">
+                        <textarea name="comment" id="" ></textarea>
+                        <input type="hidden" name="name" value="<%= item.name %>">
+                    </td> <input type="hidden" name="email" value="<%= item.email %>">
+                    <td>
+                      <button type="submit" name="status" class="btn btn-info" value="Solved">Solved</button>
+                      <button type="submit" name="status" class="btn btn-danger" value="Rejected">Rejected</button>
+                    </form>
+                    </td>
+                   
+                    <td>
+                    <a href="/complaint/complaintview/<%= item._id %>" class="btn btn-info">View</a>
+                    <a href="/complaint/complaintdelete/<%= item._id %>" class="btn btn-danger">Delete</a>
+                    </td>
+                  </tr>
+               <% }) %>
+               
+              </tbody>
+              <tfoot>
+                <tr>
+                    <th>S.No</th>
+                    <th>Name</th>
+                    <th>Complaint Type</th>
+                    <th>Subject</th>
+                    <th>Complaint Detail</th>
+                    <th>Status</th>
+                    <th>Comment</th>
+                    <th></th>
+                    <th>Action</th>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+          <!-- /.card-body -->
+        </div>
+        <!-- /.card -->
+
+
+      </div>
+      <!-- /.content -->
+    </div>
+    <!-- /.content-wrapper -->
+
+    <%- include('./layouts/footer.ejs') %>

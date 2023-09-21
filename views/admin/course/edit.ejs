@@ -1,0 +1,43 @@
+<%-include('../layouts/header.ejs') %>
+
+<%-include('../layouts/sidebar.ejs') %>
+
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+
+    <!-- Main content -->
+    <div class="content">
+
+      <!-- /.card -->
+
+      <div class="card">
+        <div class="card-header d-flex justify-content-between">
+          <h3 class="card-title" style="line-height: 40px;">Edit course</h3>
+        </div>
+        <!-- /.card-header -->
+        <div class="card-body">
+         
+            <form action="/admin/courseupdate/<%= s._id %>" method="post" enctype="multipart/form-data">
+
+                <div class="form-group">
+                  <label>Course</label>
+                  <input type="text" value="<%= s.cname %>" name="cname" class="form-control" required>
+                </div>
+  
+                <button class="btn btn-success" type="Submit">Update</button>
+               </form>
+        </div>
+        <!-- /.card-body -->
+      </div>
+      <!--modal start-->
+      <!--modal end -->
+
+      <!-- /.card -->
+    </div>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+
+
+  <%-include('../layouts/footer.ejs') %>

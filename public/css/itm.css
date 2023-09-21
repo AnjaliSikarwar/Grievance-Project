@@ -1,0 +1,821 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+.navbar-nav {
+  margin: 25px 130px;
+}
+
+/* .navbar .nav-item .nav-link,
+.navbar .nav-item .nav-link.active {
+  color: white;
+  font-weight: bold;
+
+}  */
+
+.navbar .navbar-nav .nav-item a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-family: Arial;
+  padding: 21px;
+  margin-top: -42px;
+
+}
+
+.itm_logo {
+  height: 92px;
+  margin: 8px -31px 0px;
+
+}
+/* header css end here */
+
+
+/* Main section Css start here */
+
+.main-body {
+  background: linear-gradient(to top, rgb(0 0 0 / 26%)50%, rgb(0 0 0 / 26%)50%), url(https://edugrievance.com/image/home-banner-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+
+  height: 880px;
+}
+
+/* main section css start */
+
+.main-cont {
+  /* margin-top: 248px;
+  margin-left: 140px;
+  text-align: center; */
+  width: 1200px;
+  height: auto;
+  margin: auto;
+  color: #fff;
+  position: relative;
+
+}
+
+.main-cont h1 {
+  color: #ffffff;
+  font-family: 'Times New Roman';
+  font-size: 50px;
+  padding-left: 20px;
+margin-top: 20%;
+letter-spacing: 2px;  
+}
+
+
+.main-cont p {
+  padding-left: 20px;
+  padding-bottom: 25px;
+  font-family: Arial;
+  letter-spacing: 1.2px;
+  line-height: 30px;
+
+}
+.main-cont .cn{
+  width: 160px;
+  height: 40px;
+  background: #9f0306;
+  border: none;
+  margin-bottom: 10px;
+  margin-left: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+
+}
+.main-cont .cn a{
+  text-decoration: none;
+  color: #fff;
+  transition: .3s ease;
+}
+.main-cont span{
+  color: #9f0306;
+  font-family: 'FontAwesome';
+  font-size: 75px;
+}
+
+
+.main-img {
+  margin-left: 212px;
+  margin-top: 57px;
+}
+
+.main-img img {
+  height: 556px;
+}
+
+/* main section css end */
+
+
+
+
+/* Icon section css start */
+.small {
+  /* margin: 0 auto;
+    max-width: 1000px; */
+  height: 80px;
+  margin-top: 115px;
+}
+
+.icons-list {
+  padding-left: 265px;
+  font-size: 21px;
+  color: #00a99d;
+  margin-top: -27px;
+}
+
+/* Icon css end here */
+
+
+
+
+
+/* why grievance css start here */
+.grievance {
+  margin-top: -36px;
+}
+
+.why {
+/* 
+  background: #04040485; */
+ background: #0404048c;
+  margin-top: 36px;
+  padding: 30px
+}
+
+.why h3 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #10100f;
+
+}
+
+.why h2 {
+  font-size: 37px;
+  font-weight: 600;
+  color: #9f0306;
+  margin-top: -30px;
+}
+
+.content-img {
+  margin-left: 105px;
+}
+
+.main-content {
+  margin-right: 80px;
+}
+
+.main-content p {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #fff;
+  margin-top: 18px;
+
+}
+
+.button-1 {
+  background-color: #6B5995;
+  color: #fff;
+  border-radius: 8px;
+  padding: 16px;
+  font-size: 16px;
+  height: 30px;
+  line-height: 0;
+}
+
+/* why grievance css end */
+
+
+
+
+
+/* Complain section css satrt here */
+.complain {
+  display: flex;
+  margin-left: -9px;
+
+}
+
+.student {
+  position: relative;
+
+}
+
+.student img {
+  height: 365px;
+}
+
+.faculity {
+  position: relative;
+}
+
+.faculity img {
+  height: 365px;
+}
+
+.parent {
+  position: relative;
+}
+
+.parent img {
+  height: 365px;
+}
+
+.img-title {
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  left: 0%;
+  right: 0;
+  top: 45%;
+  letter-spacing: 1px;
+
+}
+
+/* Complain section css end */
+
+
+
+
+/* Academic unit CSS start here */
+
+.section-4 {
+  /* float: left; */
+  padding: 65px 0 38px;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  background:#2a2828a6;
+  /* background: linear-gradient(4deg, #206da3, #0941686b); */
+}
+
+.section-4 .heading-2 {
+  color: #ffffff;
+}
+
+.heading-2 {
+  text-align: center;
+  font-size: 26px;
+  color: #174876;
+  position: relative;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  margin-top: -20px;
+}
+
+.bar {
+  height: 5px;
+  width: 90px;
+  background: #b4daf7;
+  margin: 15px auto;
+  position: relative;
+  border-radius: 30px;
+}
+
+
+.owl-stage-outer {
+  position: relative;
+  overflow: hidden;
+  margin-left: 60px;
+  margin-top: 17px;
+}
+
+.owl-stage {
+  transform: translate3d(0px, 0px, 0px);
+  transition: all 0s ease 0s;
+  width: 1185px;
+}
+
+.owl-item {
+  width: 222px;
+  margin-right: 15px;
+  min-height: 1px;
+  float: left;
+}
+
+.box-3 {
+  display: inline-block;
+  width: 100%;
+  background: #fff;
+  text-align: center;
+  vertical-align: middle;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  height: 212px;
+  margin-bottom: 30px;
+}
+
+.box-3 a {
+  padding: 30px 15px;
+  min-height: 188px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.icon {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.box-3 .icon img {
+  width: 80px;
+  display: inline-block;
+}
+
+.box-3 h3 {
+  font-size: 20px;
+  color: #3d3d3d;
+  margin: 15px 0 0;
+  font-weight: bold;
+}
+
+/* Academic css end here */
+
+
+
+
+/* Footer css start here */
+.middle-footer {
+  /* background-color: rgb(242 139 17 / 72%); */
+  background-color: #363636 !important;
+  background-color: #fff;
+  padding: 37px 44px;
+  color: orange;
+  font-weight: bolder;
+  font-size: 18px;
+  font-family: initial;
+}
+
+.first-footer {
+  /* background-color: rgb(242 139 17 / 72%) !important; */
+  background-color: #363636 !important;
+  color: #fff !important;
+}
+
+.middle-footer h2 {
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.middle-footer p {
+  color: #d6d6d6;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px
+}
+
+.middle-footer .line-dec {
+  width: 44px;
+  height: 1px;
+  background-color: #f5a425;
+  margin: 25px 0px;
+}
+
+.middle-footer.featured-link ul {
+  width: 44px;
+  height: 1px;
+  background-color: #f5a425;
+  margin: 25px 0px;
+}
+
+.middle-footer .featured-link ul li {
+  margin-top: 2px;
+  margin-bottom: 10px;
+}
+
+.middle-footer .featured-link ul li a {
+  color: #d6d6d6;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px
+}
+
+.middle-footer .university-address ul li {
+  display: inline-block;
+  color: #d6d6d6;
+  margin-bottom: 20px;
+  margin-left: 0px;
+
+}
+
+.middle-footer .university-address ul li i {
+  font-size: 13px;
+  height: 25px;
+  float: left;
+  margin-right: 10px;
+
+}
+
+.middle-footer .contact ul li {
+  display: inline-block;
+  color: #d6d6d6;
+  margin-bottom: 20px;
+  margin-left: 0px;
+
+}
+
+/* Footer css end here */
+
+
+
+
+/* About page Css start */
+
+.about-sec {
+  background: #0000004f;
+}
+
+.about_page {
+
+  padding: 68px;
+
+}
+
+.about {
+  margin-top: 100px;
+}
+
+.about-part h4 {
+  color: #DD6333;
+  text-align: start;
+  text-transform: uppercase;
+  font-size: 29px;
+}
+
+.about-part p {
+  color: #090909;
+  font-size: 17px;
+  line-height: 27px;
+  font-weight: 500;
+}
+
+.morebtn {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 15px;
+  background: #0D244F;
+  padding: 10px 26px;
+}
+
+.motto_section {
+  /* float: left; */
+  margin-top: 145px;
+  margin-left: 65px;
+}
+
+.bluebox {
+  width: 100% !important;
+  float: left;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  margin-bottom: 26px;
+  border-bottom-right-radius: 30px;
+  border: 1px solid;
+  box-shadow: 5px 6px 0 #ef781b;
+  background: #fff;
+}
+
+.bluebox h2 {
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 0;
+  font-weight: 600;
+  color: #535353;
+}
+
+.bluebox h2 span {
+  font-size: 32px;
+  background: #001e4c;
+  color: #fff;
+  padding: 0 10px;
+  /* margin-right: -1px; */
+  display: block;
+  width: 50px;
+  margin: 0 auto;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 100px;
+  margin-bottom: 10px;
+}
+
+/* About page CSs end */
+
+
+
+
+/* Grievance Redressal page start  */
+
+.Grievance_page img {
+  width: 100%;
+  height: 700px;
+  position: relative;
+  /* background: linear-gradient(rgba(24, 29, 56, .7)30%, rgba(107, 89, 149, 1)100%);
+ 
+     */
+}
+
+.main-content-home {
+  margin-top: 70px;
+  position: absolute;
+  top: 20%;
+  left: 7%;
+}
+
+.main-content-home h6 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #30215a;
+
+}
+
+.main-content-home p {
+  font-weight: 500;
+  line-height: 2;
+  text-align: left;
+}
+
+.mark-dot {
+  list-style: none;
+}
+
+.main-content-home li {
+  font-size: 15px;
+}
+
+.button-3 {
+  background-color: #6B5995;
+  color: #fff;
+  border-radius: 8px;
+  padding: 16px;
+  font-size: 16px;
+  height: 30px;
+  line-height: 0;
+}
+
+
+.row-main {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+/* .main-content p {
+  
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+} */
+
+.main-content h2 {
+  font-size: 37px;
+  font-weight: 600;
+  color: #30215a;
+}
+
+/* Grievance page CSS  end */
+
+
+
+/* Features page CSS start */
+.features {
+  background: linear-gradient(rgba(24, 29, 56, .7)30%, rgba(107, 89, 149, 1)100%), url(https://edugrievance.com/image/features-bg.jpg);
+  min-height: 380px;
+  width: 100%;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  position: relative !important;
+
+}
+
+.head-align {
+  height: 380px;
+}
+
+.features h1 {
+
+  font-size: 52px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.mark-dot li::before {
+  content: "\2022";
+  color: #6B5995;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: 1em;
+  line-height: 2;
+}
+
+/* Features Css end here */
+
+
+
+/*Contact CSS start */
+.page-cover {
+  text-align: center;
+  padding-top: 270px;
+  padding-bottom: 95px;
+  color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(https://www.hoteltouristdeluxe.com/images/Banners/Contact-Banner.jpg)0% 74%;
+  background-size: cover;
+
+}
+
+.page-cover h1 {
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  font-family: cursive;
+
+}
+
+.list-inline {
+  padding-left: 0;
+  margin-left: -5px;
+  list-style: none;
+  font-size: 25px;
+}
+
+.list-inline li strong {
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+  font-family: 'Lato', sans-serif;
+}
+
+.contact-form {
+  /* background-color: #3A1F04; */
+  background-color: #30215a;
+  color: #fff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  position: relative;
+  top: 0px;
+
+}
+
+.leave {
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  margin-left: -207px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group textarea {
+  margin: 0 -10px;
+  width: 104%;
+  height: 219px;
+  padding-top: 16px;
+}
+
+.form textarea {
+  font-size: 14px;
+  margin-bottom: 30px;
+  padding-left: 20px;
+}
+
+.form-control {
+  border-radius: 7px;
+  box-shadow: none;
+  background: #f3f4f4;
+  border-color: #e6e7e8;
+  height: 53px;
+  font-size: 14px;
+  margin-bottom: 30px;
+  padding-left: 20px;
+  display: block;
+  width: 100%;
+}
+
+.slide-left-vis {
+  float: left;
+}
+
+.btn {
+  width: 218px;
+  padding: 12px 0px;
+  margin-top: 30px;
+  background: #fff;
+  color: #3a1f04;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* Contact Css  end here */
+
+
+/* Benefits CSS Start here */
+.benefits {
+  background: linear-gradient(rgba(24, 29, 56, .7)30%, rgba(107, 89, 149, 1)100%), url(https://www.flywire.com/cdnimages/images/_640xAUTO_crop_center-center_65_none/flywire-edu-trusted-choice-students.jpg);
+  min-height: 380px;
+  width: 100%;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  position: relative !important;
+
+}
+.head-align {
+  height: 380px;
+}
+
+.benefitss h1 {
+
+  font-size: 52px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.mark-dot li::before {
+  content: "\2022";
+  color: #6B5995;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: 1em;
+  line-height: 2;
+}
+
+
+
+/* Student login Page
+Admin and Dean login page Css start */
+
+
+.login_page{
+  background: linear-gradient(#260000 ,#243b55);
+  position: relative;
+  height: 650px;
+}
+
+.login-box{
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  width: 400px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, .6);
+  border-radius: 10px;
+}
+
+
+
+.login-box h2{
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+.login-box .user-box{
+  position: relative;
+}
+
+.login-box .user-box input{
+width: 100%;
+padding: 10px 0;
+color: white;
+margin-bottom: 30px;
+border: none;
+border-bottom: 1px solid white;
+outline: none;
+background: transparent;
+}
+
+.login-box .user-box label{
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  color: #fff;
+  pointer-events: none;
+  transition: .5s;
+}
+.login-box p {
+  color: #fff;
+  margin-top: 11px;
+}
+
+/* Student, Admin, Dean login page Css end */
