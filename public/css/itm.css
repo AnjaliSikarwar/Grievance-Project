@@ -4,39 +4,33 @@
   box-sizing: border-box;
 }
 
-.navbar-nav {
-  margin: 25px 130px;
-}
 
-/* .navbar .nav-item .nav-link,
+.navbar .nav-item .nav-link,
 .navbar .nav-item .nav-link.active {
   color: white;
   font-weight: bold;
+  margin-top: -35px;
+  padding-top: 20px;
+}
 
-}  */
-
-.navbar .navbar-nav .nav-item a {
-  text-decoration: none;
-  color: #fff;
-  font-weight: bold;
-  font-family: Arial;
-  padding: 21px;
-  margin-top: -42px;
-
+.navbar-nav li {
+  padding: 0 10px;
 }
 
 .itm_logo {
-  height: 92px;
-  margin: 8px -31px 0px;
+  height: 65px;
+  /* margin: 8px -31px 0px; */
 
 }
+
+
 /* header css end here */
 
 
 /* Main section Css start here */
 
 .main-body {
-  background: linear-gradient(to top, rgb(0 0 0 / 26%)50%, rgb(0 0 0 / 26%)50%), url(https://edugrievance.com/image/home-banner-bg.jpg);
+  background: linear-gradient(to top, rgb(0 0 0 / 26%)50%, rgb(0 0 0 / 26%)50%), url(../../image/firstpage.jpg);
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -50,11 +44,12 @@
   /* margin-top: 248px;
   margin-left: 140px;
   text-align: center; */
-  width: 1200px;
+  /* width: 1200px;
   height: auto;
   margin: auto;
   color: #fff;
-  position: relative;
+  position: relative; */
+  margin-top: 45%;
 
 }
 
@@ -62,21 +57,21 @@
   color: #ffffff;
   font-family: 'Times New Roman';
   font-size: 50px;
-  padding-left: 20px;
-margin-top: 20%;
-letter-spacing: 2px;  
+   /* padding-left: 20px;
+  margin-top: 20%; */
+  letter-spacing: 2px; 
+  font-weight: 700;
 }
 
 
 .main-cont p {
-  padding-left: 20px;
-  padding-bottom: 25px;
-  font-family: Arial;
-  letter-spacing: 1.2px;
-  line-height: 30px;
-
+  font-weight: 500;
+  line-height: 2;
+  text-align: left;
+color:#fff;
 }
-.main-cont .cn{
+
+.main-cont .cn {
   width: 160px;
   height: 40px;
   background: #9f0306;
@@ -87,12 +82,14 @@ letter-spacing: 2px;
   cursor: pointer;
 
 }
-.main-cont .cn a{
+
+.main-cont .cn a {
   text-decoration: none;
   color: #fff;
   transition: .3s ease;
 }
-.main-cont span{
+
+.main-cont span {
   color: #9f0306;
   font-family: 'FontAwesome';
   font-size: 75px;
@@ -140,9 +137,9 @@ letter-spacing: 2px;
 }
 
 .why {
-/* 
+  /* 
   background: #04040485; */
- background: #0404048c;
+  background: #0404048c;
   margin-top: 36px;
   padding: 30px
 }
@@ -161,12 +158,23 @@ letter-spacing: 2px;
   margin-top: -30px;
 }
 
-.content-img {
-  margin-left: 105px;
+.why-img {
+  margin-left: 105px !important;
+}
+
+.bar2{
+  height: 5px;
+  width: 95px;
+  background: #b4daf7;
+  margin: 15px auto;
+  position: relative;
+  border-radius: 30px;
+  margin-top: -21px;
 }
 
 .main-content {
   margin-right: 80px;
+  /* margin: 34px; */
 }
 
 .main-content p {
@@ -195,35 +203,32 @@ letter-spacing: 2px;
 
 
 /* Complain section css satrt here */
-.complain {
-  display: flex;
-  margin-left: -9px;
 
-}
-
-.student {
+ .student {
   position: relative;
+ background: url(../../image/student.jpg) no-repeat;
+ background-position: center;
+ background-size: cover;
+ height: 400px;
 
 }
 
-.student img {
-  height: 365px;
-}
-
-.faculity {
+.dean {
   position: relative;
+background: url(../../image/deanprincipal.jpg) no-repeat;
+background-position: center;
+background-size: cover;
+height: 400px;
+
 }
 
-.faculity img {
-  height: 365px;
-}
-
-.parent {
+.handler {
   position: relative;
-}
-
-.parent img {
-  height: 365px;
+   background: url(../../image/Handleradmin.jpg) no-repeat;
+   background-position: center;
+   background-size: cover;
+   height: 400px;
+   
 }
 
 .img-title {
@@ -237,36 +242,52 @@ letter-spacing: 2px;
 
 }
 
+.btn {
+  width: 34%;
+  background-color: #ffff;
+  padding: 9px 0;
+  color: #363636;
+  font-weight: bold;
+  /* text-transform: uppercase; */
+}
+
+
 /* Complain section css end */
 
 
 
 
-/* Academic unit CSS start here */
+/* At glance CSS start here */
 
-.section-4 {
-  /* float: left; */
-  padding: 65px 0 38px;
-  background-attachment: fixed;
-  background-size: cover;
-  position: relative;
-  width: 100%;
-  background:#2a2828a6;
-  /* background: linear-gradient(4deg, #206da3, #0941686b); */
+
+.five-icon {
+  /* background-color:#3d3d3d; */
+  background: #282828c9;
+  color: #fff;
+  padding: 70px 0;
 }
 
-.section-4 .heading-2 {
-  color: #ffffff;
-}
-
-.heading-2 {
+.icon-row {
   text-align: center;
-  font-size: 26px;
-  color: #174876;
+}
+
+.counter {
+  margin-top: 27px;
+  margin-bottom: 30px;
+}
+
+.counter i {
+  width: 80px;
+  height: 80px;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  font-size: 38px;
+  line-height: 78px;
+  color: #f8dd8c;
+  content: "";
+  display: inline-block;
+  color: transparent;
   position: relative;
-  padding-bottom: 0;
-  margin-bottom: 0;
-  margin-top: -20px;
 }
 
 .bar {
@@ -278,80 +299,61 @@ letter-spacing: 2px;
   border-radius: 30px;
 }
 
-
-.owl-stage-outer {
-  position: relative;
-  overflow: hidden;
-  margin-left: 60px;
-  margin-top: 17px;
-}
-
-.owl-stage {
-  transform: translate3d(0px, 0px, 0px);
-  transition: all 0s ease 0s;
-  width: 1185px;
-}
-
-.owl-item {
-  width: 222px;
-  margin-right: 15px;
-  min-height: 1px;
-  float: left;
-}
-
-.box-3 {
-  display: inline-block;
+.counter i:before {
+  content: '';
+  background: url(../../image/Students.png) no-repeat;
+  position: absolute;
   width: 100%;
-  background: #fff;
-  text-align: center;
-  vertical-align: middle;
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  position: relative;
-  height: 212px;
-  margin-bottom: 30px;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-size: 50px;
+  background-position: center;
 }
 
-.box-3 a {
-  padding: 30px 15px;
-  min-height: 188px;
-  margin-bottom: 10px;
-  display: inline-block;
-}
-
-.icon {
-  padding: 0;
-  margin: 0;
-  width: 100%;
-}
-
-.box-3 .icon img {
-  width: 80px;
-  display: inline-block;
-}
-
-.box-3 h3 {
-  font-size: 20px;
-  color: #3d3d3d;
-  margin: 15px 0 0;
+.count-number {
+  margin: 10px 0 10px;
   font-weight: bold;
+  font-size: 36px;
+  color: #ffffff;
 }
 
-/* Academic css end here */
+.count-text {
+  color: #ffffff;
+}
 
+i.postgraduate-students:before {
+  background: url(../../image/Postgraduate-Students.png) no-repeat;
+  background-size: 43px;
+  background-position: center;
+}
+
+i.faculty:before {
+  background: url(../../image/Faculty.png) no-repeat;
+  background-size: 43px;
+  background-position: center;
+}
+
+i.non-teaching-staff:before {
+  background: url(../../image/Non-Teaching-Staff.png) no-repeat;
+  background-size: 43px;
+  background-position: center;
+}
+
+i.doctoral-students:before {
+  background: url(../../image/Doctoral-students.png) no-repeat;
+  background-size: 43px;
+  background-position: center;
+}
+
+/* At glance css end here */
 
 
 
 /* Footer css start here */
-.middle-footer {
-  /* background-color: rgb(242 139 17 / 72%); */
+/* .middle-footer {
   background-color: #363636 !important;
-  background-color: #fff;
-  padding: 37px 44px;
-  color: orange;
-  font-weight: bolder;
-  font-size: 18px;
-  font-family: initial;
-}
+} */
 
 .first-footer {
   /* background-color: rgb(242 139 17 / 72%) !important; */
@@ -359,7 +361,7 @@ letter-spacing: 2px;
   color: #fff !important;
 }
 
-.middle-footer h2 {
+.middle-footer .foot1 h2 {
   font-size: 18px;
   letter-spacing: 0.5px;
   text-transform: capitalize;
@@ -368,59 +370,31 @@ letter-spacing: 2px;
   margin-bottom: 0px;
 }
 
-.middle-footer p {
-  color: #d6d6d6;
+.middle-footer .foot1 p {
+  /* letter-spacing: 1px; */
+  font-family: sans-serif;
+  line-height: 2;
+
+}
+
+.middle-footer .foot1 ul li a {
+  color: #ffffff;
   font-family: 'Roboto', sans-serif;
-  font-size: 14px
+  font-size: 15px;
+  margin-left: 12px;
+
+}
+
+.middle-footer .foot1 ul li {
+  margin-left: -20px;
+  list-style: none;
 }
 
 .middle-footer .line-dec {
-  width: 44px;
+  width: 25%;
   height: 1px;
   background-color: #f5a425;
   margin: 25px 0px;
-}
-
-.middle-footer.featured-link ul {
-  width: 44px;
-  height: 1px;
-  background-color: #f5a425;
-  margin: 25px 0px;
-}
-
-.middle-footer .featured-link ul li {
-  margin-top: 2px;
-  margin-bottom: 10px;
-}
-
-.middle-footer .featured-link ul li a {
-  color: #d6d6d6;
-  font-family: 'Roboto', sans-serif;
-  font-size: 14px
-}
-
-.middle-footer .university-address ul li {
-  display: inline-block;
-  color: #d6d6d6;
-  margin-bottom: 20px;
-  margin-left: 0px;
-
-}
-
-.middle-footer .university-address ul li i {
-  font-size: 13px;
-  height: 25px;
-  float: left;
-  margin-right: 10px;
-
-}
-
-.middle-footer .contact ul li {
-  display: inline-block;
-  color: #d6d6d6;
-  margin-bottom: 20px;
-  margin-left: 0px;
-
 }
 
 /* Footer css end here */
@@ -453,7 +427,7 @@ letter-spacing: 2px;
 
 .about-part p {
   color: #090909;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 27px;
   font-weight: 500;
 }
@@ -486,7 +460,7 @@ letter-spacing: 2px;
 }
 
 .bluebox h2 {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 21px;
   margin-bottom: 0;
   font-weight: 600;
@@ -515,33 +489,34 @@ letter-spacing: 2px;
 
 /* Grievance Redressal page start  */
 
-.Grievance_page img {
+.Grievance_page {
+  background: url(../../image/grievance-main.jpg) no-repeat;
+  background-position: cover;
   width: 100%;
-  height: 700px;
+  height: 440px;
   position: relative;
-  /* background: linear-gradient(rgba(24, 29, 56, .7)30%, rgba(107, 89, 149, 1)100%);
- 
-     */
+
 }
 
 .main-content-home {
   margin-top: 70px;
   position: absolute;
-  top: 20%;
+  top: 15%;
   left: 7%;
 }
 
 .main-content-home h6 {
-  font-size: 48px;
-  font-weight: 700;
-  color: #30215a;
-
+  font-size: 40px;
+  font-weight: 600;
+  color: #9f0306;
+  font-family: fangsong;
 }
 
 .main-content-home p {
   font-weight: 500;
   line-height: 2;
   text-align: left;
+  color: #0D244F;
 }
 
 .mark-dot {
@@ -550,6 +525,8 @@ letter-spacing: 2px;
 
 .main-content-home li {
   font-size: 15px;
+  color: #ffff;
+
 }
 
 .button-3 {
@@ -560,6 +537,7 @@ letter-spacing: 2px;
   font-size: 16px;
   height: 30px;
   line-height: 0;
+  margin-left: 30px;
 }
 
 
@@ -568,18 +546,26 @@ letter-spacing: 2px;
   margin-right: 0 !important;
 }
 
-/* .main-content p {
-  
+.main-content p {
+
   font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
+  font-weight: 500;
+  line-height: 2;
   color: #212529;
-} */
+  margin-top: 30px;
+  margin-left: 52x;
+}
+
+.redressal-system {
+  padding: 5px 0 22px;
+}
 
 .main-content h2 {
   font-size: 37px;
   font-weight: 600;
   color: #30215a;
+  text-align: center;
+  margin: 35px;
 }
 
 /* Grievance page CSS  end */
@@ -588,7 +574,7 @@ letter-spacing: 2px;
 
 /* Features page CSS start */
 .features {
-  background: linear-gradient(rgba(24, 29, 56, .7)30%, rgba(107, 89, 149, 1)100%), url(https://edugrievance.com/image/features-bg.jpg);
+  background: linear-gradient(rgba(24, 29, 56, .7)30%, rgba(107, 89, 149, 1)100%), url(../../image/features-main.jpg);
   min-height: 380px;
   width: 100%;
   background-position: center !important;
@@ -643,28 +629,10 @@ letter-spacing: 2px;
 
 }
 
-.list-inline {
-  padding-left: 0;
-  margin-left: -5px;
-  list-style: none;
-  font-size: 25px;
-}
-
-.list-inline li strong {
-  font-weight: 700;
-  font-size: 17px;
-}
-
-.list-inline li {
-  display: inline-block;
-  padding-right: 5px;
-  padding-left: 5px;
-  font-family: 'Lato', sans-serif;
-}
 
 .contact-form {
   /* background-color: #3A1F04; */
-  background-color: #30215a;
+  background: #282828c9;
   color: #fff;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -676,7 +644,8 @@ letter-spacing: 2px;
 .leave {
   font-family: 'Lato', sans-serif;
   font-weight: 500;
-  margin-left: -207px;
+  margin-left: -40px;
+  padding: 20px;
 }
 
 .form-group {
@@ -686,7 +655,7 @@ letter-spacing: 2px;
 .form-group textarea {
   margin: 0 -10px;
   width: 104%;
-  height: 219px;
+  height: 144px;
   padding-top: 16px;
 }
 
@@ -697,7 +666,6 @@ letter-spacing: 2px;
 }
 
 .form-control {
-  border-radius: 7px;
   box-shadow: none;
   background: #f3f4f4;
   border-color: #e6e7e8;
@@ -713,11 +681,10 @@ letter-spacing: 2px;
   float: left;
 }
 
-.btn {
-  width: 218px;
+.submit-btn {
+  width: 100%;
   padding: 12px 0px;
-  margin-top: 30px;
-  background: #fff;
+  background: #3db166;
   color: #3a1f04;
   text-transform: uppercase;
   font-weight: bold;
@@ -728,94 +695,12 @@ letter-spacing: 2px;
 
 /* Benefits CSS Start here */
 .benefits {
-  background: linear-gradient(rgba(24, 29, 56, .7)30%, rgba(107, 89, 149, 1)100%), url(https://www.flywire.com/cdnimages/images/_640xAUTO_crop_center-center_65_none/flywire-edu-trusted-choice-students.jpg);
-  min-height: 380px;
-  width: 100%;
-  background-position: center !important;
-  background-repeat: no-repeat !important;
-  background-size: cover !important;
-  position: relative !important;
-
-}
-.head-align {
-  height: 380px;
-}
-
-.benefitss h1 {
-
-  font-size: 52px;
-  color: #fff;
-  font-weight: 500;
-}
-
-.mark-dot li::before {
-  content: "\2022";
-  color: #6B5995;
-  font-weight: bold;
-  display: inline-block;
-  width: 1em;
-  margin-left: 1em;
-  line-height: 2;
-}
-
-
-
-/* Student login Page
-Admin and Dean login page Css start */
-
-
-.login_page{
-  background: linear-gradient(#260000 ,#243b55);
-  position: relative;
-  height: 650px;
-}
-
-.login-box{
-  position: absolute;
-  top: 55%;
-  left: 50%;
-  width: 400px;
-  padding: 40px;
-  transform: translate(-50%, -50%);
-  background: rgba(0, 0, 0, .6);
-  border-radius: 10px;
-}
-
-
-
-.login-box h2{
-  margin: 0 0 30px;
-  padding: 0;
-  color: #fff;
   text-align: center;
-}
-.login-box .user-box{
-  position: relative;
+  padding-top: 330px;
+  padding-bottom: 170px;
+  color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../../image/benefits-main.avif)0% 35%;
+  background-size: cover;
+
 }
 
-.login-box .user-box input{
-width: 100%;
-padding: 10px 0;
-color: white;
-margin-bottom: 30px;
-border: none;
-border-bottom: 1px solid white;
-outline: none;
-background: transparent;
-}
-
-.login-box .user-box label{
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding: 10px 0;
-  color: #fff;
-  pointer-events: none;
-  transition: .5s;
-}
-.login-box p {
-  color: #fff;
-  margin-top: 11px;
-}
-
-/* Student, Admin, Dean login page Css end */

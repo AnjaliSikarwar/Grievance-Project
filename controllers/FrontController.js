@@ -47,6 +47,7 @@ class FrontController {
         }
     }
 
+
     static grievance = async (req, res) => {
         try {
             res.render('grievance')
@@ -58,6 +59,7 @@ class FrontController {
         }
     }
 
+
     static features = async (req, res) => {
         try {
             res.render('features')
@@ -68,6 +70,7 @@ class FrontController {
 
         }
     }
+    
 
     static benefits = async (req, res) => {
         try {
